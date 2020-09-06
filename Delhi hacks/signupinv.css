@@ -1,0 +1,107 @@
+
+body{
+    background-image: url("images/investor.jpg");
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 320px;
+    height: 520px;
+    background: white;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 30px 30px;
+}
+
+/*.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -45px;
+    left: calc(50% - 42px);
+}*/
+
+h1{
+    margin: 0;
+    padding: 0px 0px 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    height: 40px;
+    outline: none;
+    color: black;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(0, 85, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgb(125, 206, 5);
+    color: white;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: darkgreen;
+}
+
+.loginbox a:hover{
+    color:rgb(125, 206, 5);
+}
+
+.header img {
+    margin-top: 30px;
+    margin-left: 550px;
+    float: left;
+    width: 80px;
+    height:80px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background: #555;
+  }
+  
+  .header h1 {
+    margin-top: 25px;
+    margin-left: 650px;
+    position: absolute;
+    top: 5px;
+    font-size: 60px;
+    left: 12px;
+    color: white;
+  }

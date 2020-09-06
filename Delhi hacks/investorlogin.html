@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="investorstyle.css">
+    </head>
+    <body> 
+        <div class="header">
+            <img src="images/Logo_Final.PNG" alt="logo" />
+            <h1>Farm-Easy</h1>
+        </div>
+        <div class="loginbox">
+            <h1>Login Here</h1>
+            <form>
+                <p>Username</p>
+                <input type="text" name="" placeholder="Eg. john" required>
+                <p>Password</p>
+                <input type="password" name="" placeholder="Eg. 123456" required>
+                <input type="submit" onclick="validate()" value="Login">
+                <a href="#">Forgot Password?</a><br>
+                <a href="index.html">Switch User</a>
+            </form>
+        </div>
+        <script>
+            function validate(){
+               window.location = "investorscreen1.html";
+            }
+            </script>
+    </body>
+</html>

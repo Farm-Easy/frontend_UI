@@ -1,0 +1,153 @@
+.sidenav {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(49, 107, 26);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: url("images/pexels-pixabay-207247.jpg");
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.header img {
+  float: left;
+  width: 80px;
+  height:80px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background: #555;
+}
+
+.header h1 {
+  position: relative;
+  top: 5px;
+  font-size: 60px;
+  left: 12px;
+  color: rgb(62, 136, 32);
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin-left: 50px;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: white;
+  background: rgb(62, 136, 32);
+  box-shadow: 0 4px 8px 0 black;
+  font-size: 25px;
+  margin-left: 0px;
+}
+
+.search{
+  position: absolute;
+  height: 100px;
+  top: 120px;
+  left: 80%;
+  transform: translate(-50%,-50%);
+}
+.search img{
+  position: absolute;
+  height: 25px;
+  width: 25px;
+}
+
+.main{
+  margin-left: 250px;
+}
+
+.contain{
+  width: 150px;
+  height: 70px;
+  margin-top: 15px;
+  margin-right:  30px;
+  font-size:20px;
+  margin-left: 60px;
+  background: white;
+  position: relative;
+  float: left;
+  padding-left:40px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.418);
+  transition: 1.5s;
+  border-radius: 10px;
+}
+
+.farmerlogo {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin-left: 50px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.demotbl {
+  border: 0px solid white;
+  margin-left: 25px;
+  transition-duration: 2.5s;
+  margin-top: 40px;
+  width: 900px;
+}
+.demotbl th{
+  padding:15px;
+  font-size: 25px;
+  color:#fff;
+  text-shadow:1px 1px 1px rgb(49, 107, 26);
+  border-bottom:3px solid rgb(49, 107, 26);
+  background-color:rgb(49, 107, 26);
+  background:-webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.02,rgb(49, 107, 26)),
+      color-stop(0.51,rgb(62, 136, 32)),
+      color-stop(0.87, rgb(68, 151, 36))
+      );
+  background: -moz-linear-gradient(
+      center bottom,
+      rgb(123,192,67) 3%,
+      rgb(139,198,66) 52%,
+      rgb(158,217,41) 88%
+      );
+  -webkit-border-top-left-radius:5px;
+  -webkit-border-top-right-radius:5px;
+  -moz-border-radius:5px 5px 0px 0px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+}
+.demotbl td{
+  width:120px;
+  font-size: 20px;
+  padding:10px;
+  height: 40px;
+  text-align:center;
+  padding-top: 20px;
+  vertical-align: top;
+  background-color:white;
+  border: 1px solid #BED3AB;
+  -moz-border-radius:2px;
+  -webkit-border-radius:2px;
+  border-radius:2px;
+  color:black;
+  text-shadow:1px 1px 1px #fff;
+
+}
+
+.para{
+  margin-left: 270px;
+  color: rgb(62, 136, 32);
+  margin-top: 290px;
+  font-weight: bold;
+  font-size: 50px;
+}

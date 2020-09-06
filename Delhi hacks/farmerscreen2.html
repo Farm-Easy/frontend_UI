@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Loan</title>
+        <link rel="stylesheet" href="screen2.css">
+    </head>
+    <body>
+        <div class="sidenav">
+            <span class="farmerlogo" ></span><br><h2 style="color:white; margin-left: 45px; font-size: large;">Devang Pokar<br></h2><p style="font-size: large; margin-left:80px; margin-top:0; font-weight:bold;color: white;">Farm</p><br>
+            <a href="farmerscreen1.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+          <div class="main">
+            <div class="header">
+                <img src="images/Logo_Final.PNG" alt="logo" />
+                <h1>Farm-Easy</h1>
+                <h2>Loan Details :</h2>
+                <div class="search">
+                    <input type="text" placeholder="Search.." name="search">
+                    <img src="images/search.JPG" class="img">
+              </div>
+              <div class="contain"><p>Loan Amount: <p style="margin-left: 50px;">₹5000</p> </p></div>
+              <div class="contain"><p>Loan Status: <p style="margin-left: 70px;">50% completed.</p></p></div>
+              <div class="contain"><p>Loan Alerts⚠️: <p style="margin-left: 20px;">10/09/2020</p></p></div>
+            </div>
+            </div>
+            <div class="Container">
+                <p class="para">Avail Loan</p>
+                <input type="text" name="Loanamount" placeholder="eg. Requestable Amount" required>
+                <input type="submit" value="Request Loan">
+            </div>
+            <div class="Container1">
+                <p class="para">Land Representative token</p>
+                <input type="text" name="selectloantoken" placeholder="select" required>
+                <input type="submit" value="Deposit">
+               <div class="dropdown">
+                   <button class="dropbtn" onclick="myFunction()">V</button>
+                   <div id="myDropdown" class="dropdown-content">
+                    <a href="#"><img src="images/land1.JPG" width="200px" height="100px"></a>
+                    <a href="#"><img src="images/land2.JPG" width="200px", height="150px"></a>
+                    <a href="#"><img src="images/land3.JPG" width="200px", height="150px"></a>
+                    <a href="#"><img src="images/land4.JPG" width="200px", height="150px"></a>
+                </div>
+              </div>
+            </div>
+            <script>
+                function myFunction() {
+                  document.getElementById("myDropdown").classList.toggle("show");
+                }
+                window.onclick = function(event) {
+                  if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                      var openDropdown = dropdowns[i];
+                      if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                      }
+                    }
+                  }
+                }
+                </script>
+    </body>
+</html>
